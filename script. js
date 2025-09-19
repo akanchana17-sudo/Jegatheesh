@@ -1,11 +1,11 @@
 // Function to update student details dynamically
 function updateDetails() {
-  document.getElementById("name").innerText = "Karthick Shelby";
-  document.getElementById("age").innerText = "21";
-  document.getElementById("course").innerText = "BCA";
-  document.getElementById("college").innerText = "SNMV College, Coimbatore";
+  document.getElementById("name").innerText = "Jegatheesh";
+  document.getElementById("year").innerText = "2nd Year";
+  document.getElementById("course").innerText = "B.Sc Computer Science";
+  document.getElementById("college").innerText = "SNMV College";
   document.getElementById("skills").innerText = "HTML, CSS, JavaScript, Python";
-  document.getElementById("studentName").innerText = "Karthick Shelby";
+  document.getElementById("studentName").innerText = "Jegatheesh";
   alert("Student details updated!");
 }
 
