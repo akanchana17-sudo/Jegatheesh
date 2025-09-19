@@ -3,76 +3,53 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
 }
 
 /* Header */
 header {
-  background: #333;
+  background: #2c3e50;
   color: #fff;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin-bottom: 10px;
 }
 
 header nav a {
   color: white;
-  margin: 0 10px;
+  margin: 0 15px;
   text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 header nav a:hover {
-  text-decoration: underline;
+  color: #f39c12;
 }
 
 /* Sections */
 section {
-  padding: 40px;
-  max-width: 800px;
+  padding: 50px 20px;
+  max-width: 900px;
   margin: auto;
 }
 
 h2 {
   margin-bottom: 20px;
-  color: #333;
-}
-
-/* Student Card */
-.card {
-  background: #f4f4f4;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-/* Form */
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-input, textarea, button {
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-button {
-  background: #333;
-  color: white;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #555;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  background: #333;
-  color: white;
-  padding: 15px;
-  margin-top: 20px;
-}
+  color: #2c3e50;
+  font-size: 24px;
+  border-left: 4px solid #f39c12;
+  padding-left
